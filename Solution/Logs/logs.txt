@@ -1,0 +1,800 @@
+2025-01-03 12:57:25.736 +05:30 [INF] Starting web host.
+2025-01-03 12:57:27.818 +05:30 [INF] Loaded ABP modules:
+2025-01-03 12:57:27.819 +05:30 [INF] - Acme.BookStore.Web.BookStoreWebModule
+2025-01-03 12:57:27.819 +05:30 [INF]   - Acme.BookStore.BookStoreHttpApiModule
+2025-01-03 12:57:27.819 +05:30 [INF]     - Acme.BookStore.BookStoreApplicationContractsModule
+2025-01-03 12:57:27.819 +05:30 [INF]       - Acme.BookStore.BookStoreDomainSharedModule
+2025-01-03 12:57:27.819 +05:30 [INF]         - Volo.Abp.AuditLogging.AbpAuditLoggingDomainSharedModule
+2025-01-03 12:57:27.819 +05:30 [INF]           - Volo.Abp.Validation.AbpValidationModule
+2025-01-03 12:57:27.819 +05:30 [INF]             - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2025-01-03 12:57:27.819 +05:30 [INF]             - Volo.Abp.Localization.AbpLocalizationModule
+2025-01-03 12:57:27.819 +05:30 [INF]               - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2025-01-03 12:57:27.819 +05:30 [INF]               - Volo.Abp.Settings.AbpSettingsModule
+2025-01-03 12:57:27.819 +05:30 [INF]                 - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2025-01-03 12:57:27.819 +05:30 [INF]                 - Volo.Abp.Security.AbpSecurityModule
+2025-01-03 12:57:27.819 +05:30 [INF]                 - Volo.Abp.Data.AbpDataModule
+2025-01-03 12:57:27.819 +05:30 [INF]                   - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2025-01-03 12:57:27.819 +05:30 [INF]                   - Volo.Abp.Uow.AbpUnitOfWorkModule
+2025-01-03 12:57:27.819 +05:30 [INF]                   - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2025-01-03 12:57:27.819 +05:30 [INF]               - Volo.Abp.Threading.AbpThreadingModule
+2025-01-03 12:57:27.819 +05:30 [INF]         - Volo.Abp.BackgroundJobs.AbpBackgroundJobsDomainSharedModule
+2025-01-03 12:57:27.819 +05:30 [INF]         - Volo.Abp.FeatureManagement.AbpFeatureManagementDomainSharedModule
+2025-01-03 12:57:27.819 +05:30 [INF]           - Volo.Abp.Json.SystemTextJson.AbpJsonSystemTextJsonModule
+2025-01-03 12:57:27.819 +05:30 [INF]             - Volo.Abp.Json.AbpJsonAbstractionsModule
+2025-01-03 12:57:27.819 +05:30 [INF]             - Volo.Abp.Timing.AbpTimingModule
+2025-01-03 12:57:27.819 +05:30 [INF]         - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainSharedModule
+2025-01-03 12:57:27.819 +05:30 [INF]         - Volo.Abp.SettingManagement.AbpSettingManagementDomainSharedModule
+2025-01-03 12:57:27.819 +05:30 [INF]           - Volo.Abp.Features.AbpFeaturesModule
+2025-01-03 12:57:27.819 +05:30 [INF]             - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2025-01-03 12:57:27.819 +05:30 [INF]               - Volo.Abp.MultiTenancy.AbpMultiTenancyAbstractionsModule
+2025-01-03 12:57:27.819 +05:30 [INF]             - Volo.Abp.Authorization.AbpAuthorizationAbstractionsModule
+2025-01-03 12:57:27.819 +05:30 [INF]         - Volo.Abp.Identity.AbpIdentityProDomainSharedModule
+2025-01-03 12:57:27.819 +05:30 [INF]           - Volo.Abp.Identity.AbpIdentityDomainSharedModule
+2025-01-03 12:57:27.819 +05:30 [INF]             - Volo.Abp.Users.AbpUsersDomainSharedModule
+2025-01-03 12:57:27.819 +05:30 [INF]           - Volo.Abp.Ldap.AbpLdapAbstractionsModule
+2025-01-03 12:57:27.819 +05:30 [INF]         - Volo.Abp.OpenIddict.AbpOpenIddictProDomainSharedModule
+2025-01-03 12:57:27.819 +05:30 [INF]           - Volo.Abp.OpenIddict.AbpOpenIddictDomainSharedModule
+2025-01-03 12:57:27.819 +05:30 [INF]         - Volo.Abp.LanguageManagement.LanguageManagementDomainSharedModule
+2025-01-03 12:57:27.819 +05:30 [INF]         - Volo.FileManagement.FileManagementDomainSharedModule
+2025-01-03 12:57:27.819 +05:30 [INF]         - Volo.Saas.SaasDomainSharedModule
+2025-01-03 12:57:27.819 +05:30 [INF]           - Volo.Payment.AbpPaymentDomainSharedModule
+2025-01-03 12:57:27.819 +05:30 [INF]             - Volo.Abp.Domain.AbpDddDomainModule
+2025-01-03 12:57:27.819 +05:30 [INF]               - Volo.Abp.Auditing.AbpAuditingModule
+2025-01-03 12:57:27.819 +05:30 [INF]                 - Volo.Abp.Json.AbpJsonModule
+2025-01-03 12:57:27.819 +05:30 [INF]                 - Volo.Abp.Auditing.AbpAuditingContractsModule
+2025-01-03 12:57:27.819 +05:30 [INF]               - Volo.Abp.EventBus.AbpEventBusModule
+2025-01-03 12:57:27.819 +05:30 [INF]                 - Volo.Abp.Guids.AbpGuidsModule
+2025-01-03 12:57:27.819 +05:30 [INF]                 - Volo.Abp.BackgroundWorkers.AbpBackgroundWorkersModule
+2025-01-03 12:57:27.819 +05:30 [INF]                 - Volo.Abp.DistributedLocking.AbpDistributedLockingAbstractionsModule
+2025-01-03 12:57:27.819 +05:30 [INF]               - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2025-01-03 12:57:27.819 +05:30 [INF]               - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
+2025-01-03 12:57:27.819 +05:30 [INF]               - Volo.Abp.Specifications.AbpSpecificationsModule
+2025-01-03 12:57:27.819 +05:30 [INF]               - Volo.Abp.Caching.AbpCachingModule
+2025-01-03 12:57:27.819 +05:30 [INF]                 - Volo.Abp.Serialization.AbpSerializationModule
+2025-01-03 12:57:27.819 +05:30 [INF]               - Volo.Abp.Domain.AbpDddDomainSharedModule
+2025-01-03 12:57:27.819 +05:30 [INF]         - Volo.Chat.ChatDomainSharedModule
+2025-01-03 12:57:27.819 +05:30 [INF]         - Volo.Abp.TextTemplateManagement.TextTemplateManagementDomainSharedModule
+2025-01-03 12:57:27.819 +05:30 [INF]         - Volo.Abp.Gdpr.AbpGdprDomainSharedModule
+2025-01-03 12:57:27.819 +05:30 [INF]         - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2025-01-03 12:57:27.819 +05:30 [INF]         - Volo.Abp.BlobStoring.Database.BlobStoringDatabaseDomainSharedModule
+2025-01-03 12:57:27.819 +05:30 [INF]       - Volo.Abp.FeatureManagement.AbpFeatureManagementApplicationContractsModule
+2025-01-03 12:57:27.819 +05:30 [INF]         - Volo.Abp.Application.AbpDddApplicationContractsModule
+2025-01-03 12:57:27.819 +05:30 [INF]       - Volo.Abp.SettingManagement.AbpSettingManagementApplicationContractsModule
+2025-01-03 12:57:27.819 +05:30 [INF]       - Volo.Abp.Identity.AbpIdentityApplicationContractsModule
+2025-01-03 12:57:27.819 +05:30 [INF]         - Volo.Abp.Users.AbpUsersAbstractionModule
+2025-01-03 12:57:27.819 +05:30 [INF]         - Volo.Abp.PermissionManagement.AbpPermissionManagementApplicationContractsModule
+2025-01-03 12:57:27.819 +05:30 [INF]         - Volo.Abp.Authorization.AbpAuthorizationModule
+2025-01-03 12:57:27.819 +05:30 [INF]       - Volo.Abp.Account.AbpAccountPublicApplicationContractsModule
+2025-01-03 12:57:27.819 +05:30 [INF]         - Volo.Abp.Account.AbpAccountSharedApplicationContractsModule
+2025-01-03 12:57:27.819 +05:30 [INF]         - Volo.Abp.Emailing.AbpEmailingModule
+2025-01-03 12:57:27.819 +05:30 [INF]           - Volo.Abp.BackgroundJobs.AbpBackgroundJobsAbstractionsModule
+2025-01-03 12:57:27.819 +05:30 [INF]           - Volo.Abp.TextTemplating.AbpTextTemplatingModule
+2025-01-03 12:57:27.819 +05:30 [INF]             - Volo.Abp.TextTemplating.Scriban.AbpTextTemplatingScribanModule
+2025-01-03 12:57:27.819 +05:30 [INF]               - Volo.Abp.TextTemplating.AbpTextTemplatingCoreModule
+2025-01-03 12:57:27.819 +05:30 [INF]       - Volo.Abp.Account.AbpAccountAdminApplicationContractsModule
+2025-01-03 12:57:27.819 +05:30 [INF]       - Volo.Saas.Host.SaasHostApplicationContractsModule
+2025-01-03 12:57:27.819 +05:30 [INF]         - Volo.Payment.AbpPaymentApplicationContractsModule
+2025-01-03 12:57:27.819 +05:30 [INF]       - Volo.Abp.AuditLogging.AbpAuditLoggingApplicationContractsModule
+2025-01-03 12:57:27.819 +05:30 [INF]       - Volo.Abp.OpenIddict.AbpOpenIddictProApplicationContractsModule
+2025-01-03 12:57:27.819 +05:30 [INF]       - Volo.Abp.TextTemplateManagement.TextTemplateManagementApplicationContractsModule
+2025-01-03 12:57:27.819 +05:30 [INF]       - Volo.Abp.LanguageManagement.LanguageManagementApplicationContractsModule
+2025-01-03 12:57:27.819 +05:30 [INF]       - Volo.FileManagement.FileManagementApplicationContractsModule
+2025-01-03 12:57:27.819 +05:30 [INF]       - Volo.Abp.Gdpr.AbpGdprApplicationContractsModule
+2025-01-03 12:57:27.819 +05:30 [INF]       - Volo.Chat.ChatApplicationContractsModule
+2025-01-03 12:57:27.819 +05:30 [INF]     - Volo.Abp.PermissionManagement.HttpApi.AbpPermissionManagementHttpApiModule
+2025-01-03 12:57:27.819 +05:30 [INF]       - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2025-01-03 12:57:27.819 +05:30 [INF]         - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2025-01-03 12:57:27.819 +05:30 [INF]           - Volo.Abp.Http.AbpHttpModule
+2025-01-03 12:57:27.819 +05:30 [INF]             - Volo.Abp.Http.AbpHttpAbstractionsModule
+2025-01-03 12:57:27.819 +05:30 [INF]             - Volo.Abp.Minify.AbpMinifyModule
+2025-01-03 12:57:27.819 +05:30 [INF]           - Volo.Abp.AspNetCore.AbpAspNetCoreAbstractionsModule
+2025-01-03 12:57:27.819 +05:30 [INF]         - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2025-01-03 12:57:27.819 +05:30 [INF]         - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2025-01-03 12:57:27.819 +05:30 [INF]         - Volo.Abp.UI.Navigation.AbpUiNavigationModule
+2025-01-03 12:57:27.819 +05:30 [INF]           - Volo.Abp.UI.AbpUiModule
+2025-01-03 12:57:27.819 +05:30 [INF]         - Volo.Abp.Application.AbpDddApplicationModule
+2025-01-03 12:57:27.819 +05:30 [INF]     - Volo.Abp.SettingManagement.AbpSettingManagementHttpApiModule
+2025-01-03 12:57:27.819 +05:30 [INF]     - Volo.Abp.Identity.AbpIdentityHttpApiModule
+2025-01-03 12:57:27.819 +05:30 [INF]     - Volo.Abp.Account.AbpAccountAdminHttpApiModule
+2025-01-03 12:57:27.819 +05:30 [INF]     - Volo.Abp.TextTemplateManagement.TextTemplateManagementHttpApiModule
+2025-01-03 12:57:27.819 +05:30 [INF]     - Volo.Abp.AuditLogging.AbpAuditLoggingHttpApiModule
+2025-01-03 12:57:27.819 +05:30 [INF]     - Volo.Abp.OpenIddict.AbpOpenIddictProHttpApiModule
+2025-01-03 12:57:27.819 +05:30 [INF]     - Volo.Abp.LanguageManagement.LanguageManagementHttpApiModule
+2025-01-03 12:57:27.819 +05:30 [INF]     - Volo.FileManagement.FileManagementHttpApiModule
+2025-01-03 12:57:27.819 +05:30 [INF]     - Volo.Saas.Host.SaasHostHttpApiModule
+2025-01-03 12:57:27.819 +05:30 [INF]       - Volo.Abp.FeatureManagement.AbpFeatureManagementHttpApiModule
+2025-01-03 12:57:27.819 +05:30 [INF]     - Volo.Abp.Gdpr.AbpGdprHttpApiModule
+2025-01-03 12:57:27.819 +05:30 [INF]     - Volo.Chat.ChatHttpApiModule
+2025-01-03 12:57:27.819 +05:30 [INF]     - Volo.Abp.Account.AbpAccountPublicHttpApiModule
+2025-01-03 12:57:27.819 +05:30 [INF]   - Acme.BookStore.BookStoreApplicationModule
+2025-01-03 12:57:27.819 +05:30 [INF]     - Acme.BookStore.BookStoreDomainModule
+2025-01-03 12:57:27.819 +05:30 [INF]       - Volo.Abp.AuditLogging.AbpAuditLoggingDomainModule
+2025-01-03 12:57:27.819 +05:30 [INF]       - Volo.Abp.BackgroundJobs.AbpBackgroundJobsDomainModule
+2025-01-03 12:57:27.819 +05:30 [INF]         - Volo.Abp.BackgroundJobs.AbpBackgroundJobsModule
+2025-01-03 12:57:27.819 +05:30 [INF]         - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2025-01-03 12:57:27.819 +05:30 [INF]       - Volo.Abp.FeatureManagement.AbpFeatureManagementDomainModule
+2025-01-03 12:57:27.819 +05:30 [INF]       - Volo.Abp.PermissionManagement.Identity.AbpPermissionManagementDomainIdentityModule
+2025-01-03 12:57:27.819 +05:30 [INF]         - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainModule
+2025-01-03 12:57:27.819 +05:30 [INF]       - Volo.Abp.PermissionManagement.OpenIddict.AbpPermissionManagementDomainOpenIddictModule
+2025-01-03 12:57:27.819 +05:30 [INF]       - Volo.Abp.SettingManagement.AbpSettingManagementDomainModule
+2025-01-03 12:57:27.819 +05:30 [INF]       - Volo.Abp.Identity.AbpIdentityProDomainModule
+2025-01-03 12:57:27.819 +05:30 [INF]         - Volo.Abp.Identity.AbpIdentityDomainModule
+2025-01-03 12:57:27.819 +05:30 [INF]           - Volo.Abp.Users.AbpUsersDomainModule
+2025-01-03 12:57:27.819 +05:30 [INF]         - Volo.Abp.Ldap.AbpLdapModule
+2025-01-03 12:57:27.819 +05:30 [INF]         - Volo.Abp.Gdpr.AbpGdprAbstractionsModule
+2025-01-03 12:57:27.819 +05:30 [INF]       - Volo.Abp.OpenIddict.AbpOpenIddictProDomainModule
+2025-01-03 12:57:27.819 +05:30 [INF]         - Volo.Abp.OpenIddict.AbpOpenIddictDomainModule
+2025-01-03 12:57:27.819 +05:30 [INF]       - Volo.Saas.SaasDomainModule
+2025-01-03 12:57:27.819 +05:30 [INF]       - Volo.Chat.ChatDomainModule
+2025-01-03 12:57:27.819 +05:30 [INF]       - Volo.Abp.TextTemplateManagement.TextTemplateManagementDomainModule
+2025-01-03 12:57:27.819 +05:30 [INF]       - Volo.Abp.LanguageManagement.LanguageManagementDomainModule
+2025-01-03 12:57:27.819 +05:30 [INF]       - Volo.FileManagement.FileManagementDomainModule
+2025-01-03 12:57:27.819 +05:30 [INF]         - Volo.Abp.BlobStoring.AbpBlobStoringModule
+2025-01-03 12:57:27.819 +05:30 [INF]       - Volo.Abp.Commercial.SuiteTemplates.VoloAbpCommercialSuiteTemplatesModule
+2025-01-03 12:57:27.819 +05:30 [INF]       - Volo.Abp.Gdpr.AbpGdprDomainModule
+2025-01-03 12:57:27.819 +05:30 [INF]       - Volo.Abp.BlobStoring.Database.BlobStoringDatabaseDomainModule
+2025-01-03 12:57:27.819 +05:30 [INF]     - Volo.Abp.PermissionManagement.AbpPermissionManagementApplicationModule
+2025-01-03 12:57:27.819 +05:30 [INF]     - Volo.Abp.FeatureManagement.AbpFeatureManagementApplicationModule
+2025-01-03 12:57:27.819 +05:30 [INF]     - Volo.Abp.Identity.AbpIdentityApplicationModule
+2025-01-03 12:57:27.819 +05:30 [INF]     - Volo.Abp.Account.AbpAccountPublicApplicationModule
+2025-01-03 12:57:27.819 +05:30 [INF]       - Volo.Abp.Account.AbpAccountSharedApplicationModule
+2025-01-03 12:57:27.819 +05:30 [INF]       - Volo.Abp.Sms.AbpSmsModule
+2025-01-03 12:57:27.820 +05:30 [INF]       - Volo.Abp.Imaging.AbpImagingImageSharpModule
+2025-01-03 12:57:27.820 +05:30 [INF]         - Volo.Abp.Imaging.AbpImagingAbstractionsModule
+2025-01-03 12:57:27.820 +05:30 [INF]     - Volo.Abp.Account.AbpAccountAdminApplicationModule
+2025-01-03 12:57:27.820 +05:30 [INF]     - Volo.Saas.Host.SaasHostApplicationModule
+2025-01-03 12:57:27.820 +05:30 [INF]     - Volo.Chat.ChatApplicationModule
+2025-01-03 12:57:27.820 +05:30 [INF]     - Volo.Abp.AuditLogging.AbpAuditLoggingApplicationModule
+2025-01-03 12:57:27.820 +05:30 [INF]     - Volo.Abp.TextTemplateManagement.TextTemplateManagementApplicationModule
+2025-01-03 12:57:27.820 +05:30 [INF]     - Volo.Abp.OpenIddict.AbpOpenIddictProApplicationModule
+2025-01-03 12:57:27.820 +05:30 [INF]     - Volo.Abp.LanguageManagement.LanguageManagementApplicationModule
+2025-01-03 12:57:27.820 +05:30 [INF]     - Volo.FileManagement.FileManagementApplicationModule
+2025-01-03 12:57:27.820 +05:30 [INF]     - Volo.Abp.Gdpr.AbpGdprApplicationModule
+2025-01-03 12:57:27.820 +05:30 [INF]     - Volo.Abp.SettingManagement.AbpSettingManagementApplicationModule
+2025-01-03 12:57:27.820 +05:30 [INF]   - Acme.BookStore.EntityFrameworkCore.BookStoreEntityFrameworkCoreModule
+2025-01-03 12:57:27.820 +05:30 [INF]     - Volo.Abp.PermissionManagement.EntityFrameworkCore.AbpPermissionManagementEntityFrameworkCoreModule
+2025-01-03 12:57:27.820 +05:30 [INF]       - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2025-01-03 12:57:27.820 +05:30 [INF]     - Volo.Abp.SettingManagement.EntityFrameworkCore.AbpSettingManagementEntityFrameworkCoreModule
+2025-01-03 12:57:27.820 +05:30 [INF]     - Volo.Abp.EntityFrameworkCore.PostgreSql.AbpEntityFrameworkCorePostgreSqlModule
+2025-01-03 12:57:27.820 +05:30 [INF]     - Volo.Abp.BackgroundJobs.EntityFrameworkCore.AbpBackgroundJobsEntityFrameworkCoreModule
+2025-01-03 12:57:27.820 +05:30 [INF]     - Volo.Abp.AuditLogging.EntityFrameworkCore.AbpAuditLoggingEntityFrameworkCoreModule
+2025-01-03 12:57:27.820 +05:30 [INF]     - Volo.Abp.FeatureManagement.EntityFrameworkCore.AbpFeatureManagementEntityFrameworkCoreModule
+2025-01-03 12:57:27.820 +05:30 [INF]     - Volo.Abp.Identity.EntityFrameworkCore.AbpIdentityProEntityFrameworkCoreModule
+2025-01-03 12:57:27.820 +05:30 [INF]       - Volo.Abp.Identity.EntityFrameworkCore.AbpIdentityEntityFrameworkCoreModule
+2025-01-03 12:57:27.820 +05:30 [INF]         - Volo.Abp.Users.EntityFrameworkCore.AbpUsersEntityFrameworkCoreModule
+2025-01-03 12:57:27.820 +05:30 [INF]     - Volo.Abp.OpenIddict.EntityFrameworkCore.AbpOpenIddictProEntityFrameworkCoreModule
+2025-01-03 12:57:27.820 +05:30 [INF]       - Volo.Abp.OpenIddict.EntityFrameworkCore.AbpOpenIddictEntityFrameworkCoreModule
+2025-01-03 12:57:27.820 +05:30 [INF]     - Volo.Abp.LanguageManagement.EntityFrameworkCore.LanguageManagementEntityFrameworkCoreModule
+2025-01-03 12:57:27.820 +05:30 [INF]     - Volo.FileManagement.EntityFrameworkCore.FileManagementEntityFrameworkCoreModule
+2025-01-03 12:57:27.820 +05:30 [INF]     - Volo.Saas.EntityFrameworkCore.SaasEntityFrameworkCoreModule
+2025-01-03 12:57:27.820 +05:30 [INF]     - Volo.Chat.EntityFrameworkCore.ChatEntityFrameworkCoreModule
+2025-01-03 12:57:27.820 +05:30 [INF]     - Volo.Abp.TextTemplateManagement.EntityFrameworkCore.TextTemplateManagementEntityFrameworkCoreModule
+2025-01-03 12:57:27.820 +05:30 [INF]     - Volo.Abp.Gdpr.AbpGdprEntityFrameworkCoreModule
+2025-01-03 12:57:27.820 +05:30 [INF]     - Volo.Abp.BlobStoring.Database.EntityFrameworkCore.BlobStoringDatabaseEntityFrameworkCoreModule
+2025-01-03 12:57:27.820 +05:30 [INF]   - Volo.Abp.Autofac.AbpAutofacModule
+2025-01-03 12:57:27.820 +05:30 [INF]     - Volo.Abp.Castle.AbpCastleCoreModule
+2025-01-03 12:57:27.820 +05:30 [INF]   - Volo.Abp.Studio.Client.AspNetCore.AbpStudioClientAspNetCoreModule
+2025-01-03 12:57:27.820 +05:30 [INF]     - Volo.Abp.Studio.AbpStudioClientModule
+2025-01-03 12:57:27.820 +05:30 [INF]       - Volo.Abp.Studio.AbpStudioClientContractsModule
+2025-01-03 12:57:27.820 +05:30 [INF]   - Volo.Abp.Identity.Web.AbpIdentityWebModule
+2025-01-03 12:57:27.820 +05:30 [INF]     - Volo.Abp.PermissionManagement.Web.AbpPermissionManagementWebModule
+2025-01-03 12:57:27.820 +05:30 [INF]       - Volo.Abp.AspNetCore.Mvc.UI.Bootstrap.AbpAspNetCoreMvcUiBootstrapModule
+2025-01-03 12:57:27.820 +05:30 [INF]         - Volo.Abp.AspNetCore.Mvc.UI.AbpAspNetCoreMvcUiModule
+2025-01-03 12:57:27.820 +05:30 [INF]     - Volo.Abp.SettingManagement.Web.AbpSettingManagementWebModule
+2025-01-03 12:57:27.820 +05:30 [INF]       - Volo.Abp.AspNetCore.Mvc.UI.Theme.Shared.AbpAspNetCoreMvcUiThemeSharedModule
+2025-01-03 12:57:27.820 +05:30 [INF]         - Volo.Abp.AspNetCore.Mvc.UI.Packages.AbpAspNetCoreMvcUiPackagesModule
+2025-01-03 12:57:27.820 +05:30 [INF]           - Volo.Abp.AspNetCore.Mvc.UI.Bundling.AbpAspNetCoreMvcUiBundlingAbstractionsModule
+2025-01-03 12:57:27.820 +05:30 [INF]         - Volo.Abp.AspNetCore.Mvc.UI.Widgets.AbpAspNetCoreMvcUiWidgetsModule
+2025-01-03 12:57:27.820 +05:30 [INF]           - Volo.Abp.AspNetCore.Mvc.UI.Bundling.AbpAspNetCoreMvcUiBundlingModule
+2025-01-03 12:57:27.820 +05:30 [INF]     - Volo.Abp.AspNetCore.Mvc.UI.Theme.Commercial.AbpAspNetCoreMvcUiThemeCommercialModule
+2025-01-03 12:57:27.820 +05:30 [INF]   - Volo.Abp.AspNetCore.Mvc.UI.Theme.LeptonX.AbpAspNetCoreMvcUiLeptonXThemeModule
+2025-01-03 12:57:27.820 +05:30 [INF]     - Volo.Abp.LeptonX.Shared.AbpAspNetCoreLeptonXSharedModule
+2025-01-03 12:57:27.820 +05:30 [INF]     - Volo.Abp.AspNetCore.Mvc.UI.MultiTenancy.AbpAspNetCoreMvcUiMultiTenancyModule
+2025-01-03 12:57:27.820 +05:30 [INF]       - Volo.Abp.AspNetCore.MultiTenancy.AbpAspNetCoreMultiTenancyModule
+2025-01-03 12:57:27.820 +05:30 [INF]   - Volo.Abp.Account.Web.AbpAccountPublicWebOpenIddictModule
+2025-01-03 12:57:27.820 +05:30 [INF]     - Volo.Abp.Account.Public.Web.AbpAccountPublicWebModule
+2025-01-03 12:57:27.820 +05:30 [INF]       - Volo.Abp.Identity.AspNetCore.AbpIdentityAspNetCoreModule
+2025-01-03 12:57:27.820 +05:30 [INF]       - Volo.Abp.Account.Pro.Public.Web.Shared.AbpAccountPublicWebSharedModule
+2025-01-03 12:57:27.820 +05:30 [INF]     - Volo.Abp.OpenIddict.AbpOpenIddictAspNetCoreModule
+2025-01-03 12:57:27.820 +05:30 [INF]   - Volo.Abp.AuditLogging.Web.AbpAuditLoggingWebModule
+2025-01-03 12:57:27.820 +05:30 [INF]   - Volo.Saas.Host.SaasHostWebModule
+2025-01-03 12:57:27.820 +05:30 [INF]     - Volo.Abp.FeatureManagement.AbpFeatureManagementWebModule
+2025-01-03 12:57:27.820 +05:30 [INF]   - Volo.Abp.Account.Admin.Web.AbpAccountAdminWebModule
+2025-01-03 12:57:27.820 +05:30 [INF]   - Volo.Abp.OpenIddict.Pro.Web.AbpOpenIddictProWebModule
+2025-01-03 12:57:27.820 +05:30 [INF]   - Volo.Abp.LanguageManagement.LanguageManagementWebModule
+2025-01-03 12:57:27.820 +05:30 [INF]   - Volo.FileManagement.Web.FileManagementWebModule
+2025-01-03 12:57:27.820 +05:30 [INF]   - Volo.Abp.TextTemplateManagement.Web.TextTemplateManagementWebModule
+2025-01-03 12:57:27.820 +05:30 [INF]   - Volo.Abp.Gdpr.Web.AbpGdprWebModule
+2025-01-03 12:57:27.820 +05:30 [INF]   - Volo.Chat.Web.ChatWebModule
+2025-01-03 12:57:27.820 +05:30 [INF]   - Volo.Chat.ChatSignalRModule
+2025-01-03 12:57:27.820 +05:30 [INF]     - Volo.Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule
+2025-01-03 12:57:27.820 +05:30 [INF]   - Volo.Abp.Swashbuckle.AbpSwashbuckleModule
+2025-01-03 12:57:27.820 +05:30 [INF]   - Volo.Abp.AspNetCore.Serilog.AbpAspNetCoreSerilogModule
+2025-01-03 12:57:28.586 +05:30 [INF] User profile is available. Using 'C:\Users\rishi\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-01-03 12:57:28.802 +05:30 [INF] Saving external localizations...
+2025-01-03 12:57:29.141 +05:30 [INF] Initialized all ABP modules.
+2025-01-03 12:57:29.179 +05:30 [INF] Initializing UI Database
+2025-01-03 12:57:29.275 +05:30 [INF] Saving healthchecks configuration to database
+2025-01-03 12:57:29.443 +05:30 [INF] Now listening on: http://localhost:5000
+2025-01-03 12:57:29.471 +05:30 [INF] Start processing HTTP request GET http://localhost:5000/health-status
+2025-01-03 12:57:29.473 +05:30 [INF] Sending HTTP request GET http://localhost:5000/health-status
+2025-01-03 12:57:29.477 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-03 12:57:29.477 +05:30 [INF] Hosting environment: Production
+2025-01-03 12:57:29.478 +05:30 [INF] Content root path: C:\Users\rishi\Desktop\ABPTutorial\Solution
+2025-01-03 12:57:29.500 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5000/health-status - null null
+2025-01-03 12:57:30.145 +05:30 [INF] Completed to save external localizations.
+2025-01-03 12:57:30.303 +05:30 [INF] Executing endpoint 'Health checks'
+2025-01-03 12:57:31.413 +05:30 [INF] Executed endpoint 'Health checks'
+2025-01-03 12:57:31.425 +05:30 [INF] Received HTTP response headers after 1950.753ms - 200
+2025-01-03 12:57:31.426 +05:30 [INF] End processing HTTP request after 1957.2676ms - 200
+2025-01-03 12:57:31.430 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5000/health-status - 200 null application/json 1930.7668ms
+2025-01-03 12:57:41.553 +05:30 [INF] Start processing HTTP request GET http://localhost:5000/health-status
+2025-01-03 12:57:41.554 +05:30 [INF] Sending HTTP request GET http://localhost:5000/health-status
+2025-01-03 12:57:41.555 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5000/health-status - null null
+2025-01-03 12:57:41.567 +05:30 [INF] Executing endpoint 'Health checks'
+2025-01-03 12:57:41.574 +05:30 [INF] Executed endpoint 'Health checks'
+2025-01-03 12:57:41.574 +05:30 [INF] Received HTTP response headers after 20.7365ms - 200
+2025-01-03 12:57:41.574 +05:30 [INF] End processing HTTP request after 20.9223ms - 200
+2025-01-03 12:57:41.575 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5000/health-status - 200 null application/json 19.7668ms
+2025-01-03 12:57:51.597 +05:30 [INF] Start processing HTTP request GET http://localhost:5000/health-status
+2025-01-03 12:57:51.597 +05:30 [INF] Sending HTTP request GET http://localhost:5000/health-status
+2025-01-03 12:57:51.597 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5000/health-status - null null
+2025-01-03 12:57:51.601 +05:30 [INF] Executing endpoint 'Health checks'
+2025-01-03 12:57:51.606 +05:30 [INF] Executed endpoint 'Health checks'
+2025-01-03 12:57:51.607 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5000/health-status - 200 null application/json 9.3981ms
+2025-01-03 12:57:51.607 +05:30 [INF] Received HTTP response headers after 10.4646ms - 200
+2025-01-03 12:57:51.607 +05:30 [INF] End processing HTTP request after 10.8041ms - 200
+2025-01-03 12:58:01.622 +05:30 [INF] Start processing HTTP request GET http://localhost:5000/health-status
+2025-01-03 12:58:01.622 +05:30 [INF] Sending HTTP request GET http://localhost:5000/health-status
+2025-01-03 12:58:01.622 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5000/health-status - null null
+2025-01-03 12:58:01.625 +05:30 [INF] Executing endpoint 'Health checks'
+2025-01-03 12:58:01.630 +05:30 [INF] Executed endpoint 'Health checks'
+2025-01-03 12:58:01.630 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5000/health-status - 200 null application/json 7.6472ms
+2025-01-03 12:58:01.630 +05:30 [INF] Received HTTP response headers after 8.2748ms - 200
+2025-01-03 12:58:01.630 +05:30 [INF] End processing HTTP request after 8.4805ms - 200
+2025-01-03 12:58:11.647 +05:30 [INF] Start processing HTTP request GET http://localhost:5000/health-status
+2025-01-03 12:58:11.648 +05:30 [INF] Sending HTTP request GET http://localhost:5000/health-status
+2025-01-03 12:58:11.648 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5000/health-status - null null
+2025-01-03 12:58:11.659 +05:30 [INF] Executing endpoint 'Health checks'
+2025-01-03 12:58:11.668 +05:30 [INF] Executed endpoint 'Health checks'
+2025-01-03 12:58:11.668 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5000/health-status - 200 null application/json 19.7462ms
+2025-01-03 12:58:11.668 +05:30 [INF] Received HTTP response headers after 20.3509ms - 200
+2025-01-03 12:58:11.668 +05:30 [INF] End processing HTTP request after 20.9861ms - 200
+2025-01-03 12:58:21.679 +05:30 [INF] Start processing HTTP request GET http://localhost:5000/health-status
+2025-01-03 12:58:21.680 +05:30 [INF] Sending HTTP request GET http://localhost:5000/health-status
+2025-01-03 12:58:21.680 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5000/health-status - null null
+2025-01-03 12:58:21.688 +05:30 [INF] Executing endpoint 'Health checks'
+2025-01-03 12:58:21.695 +05:30 [INF] Executed endpoint 'Health checks'
+2025-01-03 12:58:21.696 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5000/health-status - 200 null application/json 15.4079ms
+2025-01-03 12:58:21.696 +05:30 [INF] Received HTTP response headers after 16.1002ms - 200
+2025-01-03 12:58:21.696 +05:30 [INF] End processing HTTP request after 16.5015ms - 200
+2025-01-03 12:58:31.714 +05:30 [INF] Start processing HTTP request GET http://localhost:5000/health-status
+2025-01-03 12:58:31.714 +05:30 [INF] Sending HTTP request GET http://localhost:5000/health-status
+2025-01-03 12:58:31.714 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5000/health-status - null null
+2025-01-03 12:58:31.720 +05:30 [INF] Executing endpoint 'Health checks'
+2025-01-03 12:58:31.723 +05:30 [INF] Executed endpoint 'Health checks'
+2025-01-03 12:58:31.723 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5000/health-status - 200 null application/json 8.6893ms
+2025-01-03 12:58:31.723 +05:30 [INF] Received HTTP response headers after 9.2088ms - 200
+2025-01-03 12:58:31.723 +05:30 [INF] End processing HTTP request after 9.4251ms - 200
+2025-01-03 12:58:41.736 +05:30 [INF] Start processing HTTP request GET http://localhost:5000/health-status
+2025-01-03 12:58:41.736 +05:30 [INF] Sending HTTP request GET http://localhost:5000/health-status
+2025-01-03 12:58:41.736 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5000/health-status - null null
+2025-01-03 12:58:41.742 +05:30 [INF] Executing endpoint 'Health checks'
+2025-01-03 12:58:41.744 +05:30 [INF] Executed endpoint 'Health checks'
+2025-01-03 12:58:41.744 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5000/health-status - 200 null application/json 7.8784ms
+2025-01-03 12:58:41.744 +05:30 [INF] Received HTTP response headers after 8.4623ms - 200
+2025-01-03 12:58:41.744 +05:30 [INF] End processing HTTP request after 8.6384ms - 200
+2025-01-03 12:58:46.217 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5000/health-status - null null
+2025-01-03 12:58:46.224 +05:30 [INF] Executing endpoint 'Health checks'
+2025-01-03 12:58:46.229 +05:30 [INF] Executed endpoint 'Health checks'
+2025-01-03 12:58:46.230 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5000/health-status - 200 null application/json 13.2535ms
+2025-01-03 12:58:51.758 +05:30 [INF] Start processing HTTP request GET http://localhost:5000/health-status
+2025-01-03 12:58:51.758 +05:30 [INF] Sending HTTP request GET http://localhost:5000/health-status
+2025-01-03 12:58:51.759 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5000/health-status - null null
+2025-01-03 12:58:51.762 +05:30 [INF] Executing endpoint 'Health checks'
+2025-01-03 12:58:51.764 +05:30 [INF] Executed endpoint 'Health checks'
+2025-01-03 12:58:51.765 +05:30 [INF] Received HTTP response headers after 6.5364ms - 200
+2025-01-03 12:58:51.765 +05:30 [INF] End processing HTTP request after 6.6655ms - 200
+2025-01-03 12:58:51.765 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5000/health-status - 200 null application/json 6.3476ms
+2025-01-03 12:59:01.779 +05:30 [INF] Start processing HTTP request GET http://localhost:5000/health-status
+2025-01-03 12:59:01.779 +05:30 [INF] Sending HTTP request GET http://localhost:5000/health-status
+2025-01-03 12:59:01.780 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5000/health-status - null null
+2025-01-03 12:59:01.784 +05:30 [INF] Executing endpoint 'Health checks'
+2025-01-03 12:59:01.787 +05:30 [INF] Executed endpoint 'Health checks'
+2025-01-03 12:59:01.788 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5000/health-status - 200 null application/json 7.9557ms
+2025-01-03 12:59:01.788 +05:30 [INF] Received HTTP response headers after 8.4488ms - 200
+2025-01-03 12:59:01.788 +05:30 [INF] End processing HTTP request after 8.5821ms - 200
+2025-01-03 12:59:11.794 +05:30 [INF] Start processing HTTP request GET http://localhost:5000/health-status
+2025-01-03 12:59:11.794 +05:30 [INF] Sending HTTP request GET http://localhost:5000/health-status
+2025-01-03 12:59:11.794 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5000/health-status - null null
+2025-01-03 12:59:11.801 +05:30 [INF] Executing endpoint 'Health checks'
+2025-01-03 12:59:11.809 +05:30 [INF] Executed endpoint 'Health checks'
+2025-01-03 12:59:11.810 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5000/health-status - 200 null application/json 15.4937ms
+2025-01-03 12:59:11.810 +05:30 [INF] Received HTTP response headers after 16.1392ms - 200
+2025-01-03 12:59:11.810 +05:30 [INF] End processing HTTP request after 16.3356ms - 200
+2025-01-03 12:59:21.815 +05:30 [INF] Start processing HTTP request GET http://localhost:5000/health-status
+2025-01-03 12:59:21.815 +05:30 [INF] Sending HTTP request GET http://localhost:5000/health-status
+2025-01-03 12:59:21.815 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5000/health-status - null null
+2025-01-03 12:59:21.822 +05:30 [INF] Executing endpoint 'Health checks'
+2025-01-03 12:59:21.828 +05:30 [INF] Executed endpoint 'Health checks'
+2025-01-03 12:59:21.829 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5000/health-status - 200 null application/json 13.5865ms
+2025-01-03 12:59:21.829 +05:30 [INF] Received HTTP response headers after 14.2316ms - 200
+2025-01-03 12:59:21.829 +05:30 [INF] End processing HTTP request after 14.4437ms - 200
+2025-01-03 12:59:24.638 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5000/health-status - null null
+2025-01-03 12:59:24.642 +05:30 [INF] Executing endpoint 'Health checks'
+2025-01-03 12:59:24.645 +05:30 [INF] Executed endpoint 'Health checks'
+2025-01-03 12:59:24.645 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5000/health-status - 200 null application/json 6.7769ms
+2025-01-03 12:59:27.908 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5000/ - null null
+2025-01-03 12:59:27.912 +05:30 [INF] Executing endpoint '/Index'
+2025-01-03 12:59:27.925 +05:30 [INF] Route matched with {page = "/Index", area = "", action = "", controller = ""}. Executing page /Index
+2025-01-03 12:59:27.926 +05:30 [INF] Skipping the execution of current filter as its not the most effective filter implementing the policy Microsoft.AspNetCore.Mvc.ViewFeatures.IAntiforgeryPolicy
+2025-01-03 12:59:27.933 +05:30 [INF] Executing an implicit handler method - ModelState is "Valid"
+2025-01-03 12:59:27.933 +05:30 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2025-01-03 12:59:28.074 +05:30 [WRN] The cookie 'XSRF-TOKEN' has set 'SameSite=None' and must also set 'Secure'.
+2025-01-03 12:59:28.124 +05:30 [INF] Bundling __bundles/LeptonX.Global.B7C02D525514EF2E1F839ED1E31F96BC.css (19 files)
+2025-01-03 12:59:28.162 +05:30 [INF]   > Minified /libs/abp/core/abp.css (1331 bytes -> 868 bytes)
+2025-01-03 12:59:28.195 +05:30 [INF]   > Minified /libs/@fortawesome/fontawesome-free/css/all.css (106394 bytes -> 72264 bytes)
+2025-01-03 12:59:28.207 +05:30 [INF]   > Minified /libs/@fortawesome/fontawesome-free/css/v4-shims.css (38514 bytes -> 30407 bytes)
+2025-01-03 12:59:28.222 +05:30 [INF]   > Minified /libs/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.css (54850 bytes -> 43186 bytes)
+2025-01-03 12:59:28.228 +05:30 [INF]   > Minified /libs/datatables.net-bs5/css/dataTables.bootstrap5.css (16934 bytes -> 14895 bytes)
+2025-01-03 12:59:28.231 +05:30 [INF]   > Minified /libs/bootstrap-daterangepicker/daterangepicker.css (8069 bytes -> 6368 bytes)
+2025-01-03 12:59:28.231 +05:30 [INF]   > Minified /libs/abp/aspnetcore-mvc-ui-theme-shared/datatables/datatables-styles.css (266 bytes -> 212 bytes)
+2025-01-03 12:59:28.232 +05:30 [INF]   > Minified /libs/abp/aspnetcore-mvc-ui-theme-shared/date-range-picker/date-range-picker-styles.css (338 bytes -> 293 bytes)
+2025-01-03 12:59:28.248 +05:30 [INF]   > Minified /Themes/LeptonX/Global/side-menu/libs/bootstrap-icons/font/bootstrap-icons.css (74827 bytes -> 57858 bytes)
+2025-01-03 12:59:28.259 +05:30 [INF]   > Minified /Themes/LeptonX/Global/side-menu/css/js-bundle.css (46993 bytes -> 41560 bytes)
+2025-01-03 12:59:28.267 +05:30 [INF]   > Minified /Themes/LeptonX/Global/side-menu/css/layout-bundle.css (34905 bytes -> 29865 bytes)
+2025-01-03 12:59:28.269 +05:30 [INF]   > Minified /Themes/LeptonX/Global/side-menu/css/abp-bundle.css (3864 bytes -> 3018 bytes)
+2025-01-03 12:59:28.270 +05:30 [INF]   > Minified /Themes/LeptonX/Global/side-menu/css/font-bundle.css (48 bytes -> 47 bytes)
+2025-01-03 12:59:28.270 +05:30 [INF]   > Minified /global-scripts.js (27 bytes -> 0 bytes)
+2025-01-03 12:59:28.271 +05:30 [INF]   > Minified /global-styles.css (592 bytes -> 505 bytes)
+2025-01-03 12:59:28.271 +05:30 [INF] Bundled __bundles/LeptonX.Global.B7C02D525514EF2E1F839ED1E31F96BC.css (355091 bytes)
+2025-01-03 12:59:28.306 +05:30 [INF] Bundling __bundles/Pages.Index.91A143E5BBA37D801A02555A7407C133.css (1 files)
+2025-01-03 12:59:28.306 +05:30 [INF]   > Minified /Pages/Index.css (273 bytes -> 150 bytes)
+2025-01-03 12:59:28.306 +05:30 [INF] Bundled __bundles/Pages.Index.91A143E5BBA37D801A02555A7407C133.css (150 bytes)
+2025-01-03 12:59:28.629 +05:30 [INF] Bundling __bundles/LeptonX.Global.58BE2542F63507E9EE7762EA0498988B.js (41 files)
+2025-01-03 12:59:28.718 +05:30 [INF]   > Minified /libs/abp/core/abp.js (25271 bytes -> 10313 bytes)
+2025-01-03 12:59:28.819 +05:30 [INF]   > Minified /libs/jquery/jquery.js (285314 bytes -> 87931 bytes)
+2025-01-03 12:59:28.826 +05:30 [INF]   > Minified /libs/abp/jquery/abp.jquery.js (13489 bytes -> 5683 bytes)
+2025-01-03 12:59:28.843 +05:30 [INF]   > Minified /libs/jquery-validation/jquery.validate.js (52535 bytes -> 25346 bytes)
+2025-01-03 12:59:28.847 +05:30 [INF]   > Minified /libs/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js (19820 bytes -> 5883 bytes)
+2025-01-03 12:59:28.850 +05:30 [INF]   > Minified /libs/datatables.net-bs5/js/dataTables.bootstrap5.js (3552 bytes -> 1489 bytes)
+2025-01-03 12:59:28.856 +05:30 [INF]   > Minified /libs/abp/luxon/abp.luxon.js (1361 bytes -> 606 bytes)
+2025-01-03 12:59:28.858 +05:30 [INF]   > Minified /libs/timeago/jquery.timeago.js (7404 bytes -> 4107 bytes)
+2025-01-03 12:59:28.875 +05:30 [INF]   > Minified /libs/bootstrap-daterangepicker/daterangepicker.js (67745 bytes -> 32632 bytes)
+2025-01-03 12:59:28.878 +05:30 [INF]   > Minified /libs/abp/aspnetcore-mvc-ui-theme-shared/ui-extensions.js (11706 bytes -> 3411 bytes)
+2025-01-03 12:59:28.880 +05:30 [INF]   > Minified /libs/abp/aspnetcore-mvc-ui-theme-shared/jquery/jquery-extensions.js (5965 bytes -> 2219 bytes)
+2025-01-03 12:59:28.881 +05:30 [INF]   > Minified /libs/abp/aspnetcore-mvc-ui-theme-shared/jquery-form/jquery-form-extensions.js (3605 bytes -> 1588 bytes)
+2025-01-03 12:59:28.882 +05:30 [INF]   > Minified /libs/abp/aspnetcore-mvc-ui-theme-shared/jquery/widget-manager.js (4790 bytes -> 1752 bytes)
+2025-01-03 12:59:28.887 +05:30 [INF]   > Minified /libs/abp/aspnetcore-mvc-ui-theme-shared/bootstrap/dom-event-handlers.js (9958 bytes -> 4687 bytes)
+2025-01-03 12:59:28.890 +05:30 [INF]   > Minified /libs/abp/aspnetcore-mvc-ui-theme-shared/bootstrap/modal-manager.js (8329 bytes -> 2449 bytes)
+2025-01-03 12:59:28.894 +05:30 [INF]   > Minified /libs/abp/aspnetcore-mvc-ui-theme-shared/datatables/datatables-extensions.js (22779 bytes -> 7174 bytes)
+2025-01-03 12:59:28.895 +05:30 [INF]   > Minified /libs/abp/aspnetcore-mvc-ui-theme-shared/sweetalert2/abp-sweetalert2.js (3680 bytes -> 1858 bytes)
+2025-01-03 12:59:28.896 +05:30 [INF]   > Minified /libs/abp/aspnetcore-mvc-ui-theme-shared/toastr/abp-toastr.js (951 bytes -> 342 bytes)
+2025-01-03 12:59:28.902 +05:30 [INF]   > Minified /libs/abp/aspnetcore-mvc-ui-theme-shared/date-range-picker/date-range-picker-extensions.js (29172 bytes -> 9995 bytes)
+2025-01-03 12:59:28.903 +05:30 [INF]   > Minified /libs/abp/aspnetcore-mvc-ui-theme-shared/authentication-state/authentication-state-listener.js (776 bytes -> 375 bytes)
+2025-01-03 12:59:28.904 +05:30 [INF]   > Minified /Pages/Abp/MultiTenancy/tenant-switch.js (414 bytes -> 243 bytes)
+2025-01-03 12:59:28.909 +05:30 [INF]   > Minified /client-proxies/account-proxy.js (18919 bytes -> 12187 bytes)
+2025-01-03 12:59:28.911 +05:30 [INF]   > Minified /Pages/Account/AuthorityDelegation/account-authority-delegation-global.js (6334 bytes -> 2493 bytes)
+2025-01-03 12:59:28.913 +05:30 [INF]   > Minified /Pages/Account/LinkUsers/account-link-user-global.js (4816 bytes -> 2263 bytes)
+2025-01-03 12:59:28.914 +05:30 [INF]   > Minified /Pages/AuditLogs/audit-log-global.js (1123 bytes -> 542 bytes)
+2025-01-03 12:59:28.915 +05:30 [INF]   > Minified /client-proxies/auditLogging-proxy.js (5450 bytes -> 3715 bytes)
+2025-01-03 12:59:28.917 +05:30 [INF]   > Minified /Themes/LeptonX/Global/scripts/style-initializer.js (1637 bytes -> 750 bytes)
+2025-01-03 12:59:28.919 +05:30 [INF] Bundled __bundles/LeptonX.Global.58BE2542F63507E9EE7762EA0498988B.js (993961 bytes)
+2025-01-03 12:59:28.934 +05:30 [INF] Bundling __bundles/0A8933CBA9502D82B30D3F2736E143D4.0A8933CBA9502D82B30D3F2736E143D4.js (1 files)
+2025-01-03 12:59:28.935 +05:30 [INF]   > Minified /Pages/Gdpr/Components/CookieConsent/Default.js (414 bytes -> 246 bytes)
+2025-01-03 12:59:28.935 +05:30 [INF] Bundled __bundles/0A8933CBA9502D82B30D3F2736E143D4.0A8933CBA9502D82B30D3F2736E143D4.js (249 bytes)
+2025-01-03 12:59:28.944 +05:30 [INF] Executed page /Index in 1016.409ms
+2025-01-03 12:59:28.944 +05:30 [INF] Executed endpoint '/Index'
+2025-01-03 12:59:28.946 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5000/ - 200 null text/html; charset=utf-8 1038.6964ms
+2025-01-03 12:59:28.954 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5000/Themes/LeptonX/Global/side-menu/css/bootstrap-light.css - null null
+2025-01-03 12:59:28.955 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5000/Themes/LeptonX/Global/side-menu/css/light.css - null null
+2025-01-03 12:59:28.956 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5000/__bundles/Pages.Index.91A143E5BBA37D801A02555A7407C133.css?_v=638714861683068169 - null null
+2025-01-03 12:59:28.956 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5000/__bundles/LeptonX.Global.B7C02D525514EF2E1F839ED1E31F96BC.css?_v=638714861682719646 - null null
+2025-01-03 12:59:28.960 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5000/images/getting-started/bg-01.png - null null
+2025-01-03 12:59:28.961 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5000/images/getting-started/img-support.png - null null
+2025-01-03 12:59:28.965 +05:30 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-01-03 12:59:28.965 +05:30 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-01-03 12:59:28.988 +05:30 [INF] Sending file. Request path: '/Themes/LeptonX/Global/side-menu/css/light.css'. Physical path: 'N/A'
+2025-01-03 12:59:28.988 +05:30 [INF] Sending file. Request path: '/__bundles/Pages.Index.91A143E5BBA37D801A02555A7407C133.css'. Physical path: 'N/A'
+2025-01-03 12:59:28.988 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5000/Themes/LeptonX/Global/side-menu/css/light.css - 200 5238 text/css 32.8046ms
+2025-01-03 12:59:28.988 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5000/__bundles/Pages.Index.91A143E5BBA37D801A02555A7407C133.css?_v=638714861683068169 - 200 150 text/css 31.7091ms
+2025-01-03 12:59:28.989 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5000/__bundles/LeptonX.Global.58BE2542F63507E9EE7762EA0498988B.js?_v=638714861689202907 - null null
+2025-01-03 12:59:28.991 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5000/images/getting-started/img-blog.png - null null
+2025-01-03 12:59:28.992 +05:30 [INF] Sending file. Request path: 'images/getting-started/bg-01.png'. Physical path: 'C:\Users\rishi\Desktop\ABPTutorial\Solution\wwwroot\images\getting-started\bg-01.png'
+2025-01-03 12:59:28.992 +05:30 [INF] Sending file. Request path: 'images/getting-started/img-support.png'. Physical path: 'C:\Users\rishi\Desktop\ABPTutorial\Solution\wwwroot\images\getting-started\img-support.png'
+2025-01-03 12:59:28.992 +05:30 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-01-03 12:59:28.992 +05:30 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-01-03 12:59:28.993 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5000/images/getting-started/img-support.png - 200 33989 image/png 32.1826ms
+2025-01-03 12:59:28.993 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5000/images/getting-started/bg-01.png - 200 27830 image/png 32.6039ms
+2025-01-03 12:59:28.993 +05:30 [INF] Sending file. Request path: '/__bundles/LeptonX.Global.B7C02D525514EF2E1F839ED1E31F96BC.css'. Physical path: 'N/A'
+2025-01-03 12:59:28.993 +05:30 [INF] Sending file. Request path: '/Themes/LeptonX/Global/side-menu/css/bootstrap-light.css'. Physical path: 'N/A'
+2025-01-03 12:59:28.993 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5000/__bundles/LeptonX.Global.B7C02D525514EF2E1F839ED1E31F96BC.css?_v=638714861682719646 - 200 363668 text/css 36.9453ms
+2025-01-03 12:59:28.993 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5000/Themes/LeptonX/Global/side-menu/css/bootstrap-light.css - 200 266102 text/css 39.1372ms
+2025-01-03 12:59:28.994 +05:30 [INF] Sending file. Request path: '/__bundles/LeptonX.Global.58BE2542F63507E9EE7762EA0498988B.js'. Physical path: 'N/A'
+2025-01-03 12:59:28.994 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5000/__bundles/LeptonX.Global.58BE2542F63507E9EE7762EA0498988B.js?_v=638714861689202907 - 200 995399 application/javascript 5.3485ms
+2025-01-03 12:59:28.997 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5000/images/getting-started/img-community.png - null null
+2025-01-03 12:59:29.002 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5000/images/getting-started/book.png - null null
+2025-01-03 12:59:29.005 +05:30 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-01-03 12:59:29.005 +05:30 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-01-03 12:59:29.005 +05:30 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-01-03 12:59:29.006 +05:30 [INF] Sending file. Request path: 'images/getting-started/img-blog.png'. Physical path: 'C:\Users\rishi\Desktop\ABPTutorial\Solution\wwwroot\images\getting-started\img-blog.png'
+2025-01-03 12:59:29.006 +05:30 [INF] Sending file. Request path: 'images/getting-started/img-community.png'. Physical path: 'C:\Users\rishi\Desktop\ABPTutorial\Solution\wwwroot\images\getting-started\img-community.png'
+2025-01-03 12:59:29.006 +05:30 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-01-03 12:59:29.006 +05:30 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-01-03 12:59:29.006 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5000/images/getting-started/img-blog.png - 200 42029 image/png 15.3926ms
+2025-01-03 12:59:29.006 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5000/images/getting-started/img-community.png - 200 65374 image/png 9.3388ms
+2025-01-03 12:59:29.007 +05:30 [INF] Sending file. Request path: 'images/getting-started/book.png'. Physical path: 'C:\Users\rishi\Desktop\ABPTutorial\Solution\wwwroot\images\getting-started\book.png'
+2025-01-03 12:59:29.007 +05:30 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-01-03 12:59:29.007 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5000/images/getting-started/book.png - 200 337312 image/png 4.8678ms
+2025-01-03 12:59:29.008 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5000/libs/select2/js/i18n/en.js?_v=638700254419610000 - null null
+2025-01-03 12:59:29.010 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5000/libs/timeago/locales/jquery.timeago.en.js?_v=638700254421320000 - null null
+2025-01-03 12:59:29.012 +05:30 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-01-03 12:59:29.012 +05:30 [INF] Sending file. Request path: 'libs/select2/js/i18n/en.js'. Physical path: 'C:\Users\rishi\Desktop\ABPTutorial\Solution\wwwroot\libs\select2\js\i18n\en.js.br'
+2025-01-03 12:59:29.012 +05:30 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-01-03 12:59:29.012 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5000/libs/select2/js/i18n/en.js?_v=638700254419610000 - 200 362 text/javascript 4.3872ms
+2025-01-03 12:59:29.013 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5000/Abp/ApplicationLocalizationScript?cultureName=en - null null
+2025-01-03 12:59:29.016 +05:30 [INF] Executing endpoint 'Volo.Abp.AspNetCore.Mvc.Localization.AbpApplicationLocalizationScriptController.GetAsync (Volo.Abp.AspNetCore.Mvc)'
+2025-01-03 12:59:29.018 +05:30 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-01-03 12:59:29.018 +05:30 [INF] Sending file. Request path: 'libs/timeago/locales/jquery.timeago.en.js'. Physical path: 'C:\Users\rishi\Desktop\ABPTutorial\Solution\wwwroot\libs\timeago\locales\jquery.timeago.en.js.br'
+2025-01-03 12:59:29.018 +05:30 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-01-03 12:59:29.018 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5000/libs/timeago/locales/jquery.timeago.en.js?_v=638700254421320000 - 200 286 text/javascript 8.5248ms
+2025-01-03 12:59:29.019 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5000/Abp/ApplicationConfigurationScript - null null
+2025-01-03 12:59:29.022 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5000/Abp/ServiceProxyScript - null null
+2025-01-03 12:59:29.023 +05:30 [INF] Executing endpoint 'Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationScriptController.Get (Volo.Abp.AspNetCore.Mvc)'
+2025-01-03 12:59:29.025 +05:30 [INF] Executing endpoint 'Volo.Abp.AspNetCore.Mvc.ProxyScripting.AbpServiceProxyScriptController.GetAll (Volo.Abp.AspNetCore.Mvc)'
+2025-01-03 12:59:29.026 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5000/__bundles/0A8933CBA9502D82B30D3F2736E143D4.0A8933CBA9502D82B30D3F2736E143D4.js?_v=638714861689353839 - null null
+2025-01-03 12:59:29.026 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5000/images/getting-started/x-white.svg - null null
+2025-01-03 12:59:29.027 +05:30 [INF] Sending file. Request path: '/__bundles/0A8933CBA9502D82B30D3F2736E143D4.0A8933CBA9502D82B30D3F2736E143D4.js'. Physical path: 'N/A'
+2025-01-03 12:59:29.027 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5000/__bundles/0A8933CBA9502D82B30D3F2736E143D4.0A8933CBA9502D82B30D3F2736E143D4.js?_v=638714861689353839 - 200 249 application/javascript 0.5803ms
+2025-01-03 12:59:29.028 +05:30 [INF] Route matched with {area = "Abp", action = "Get", controller = "AbpApplicationLocalizationScript", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetAsync(Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.ApplicationLocalizationRequestDto) on controller Volo.Abp.AspNetCore.Mvc.Localization.AbpApplicationLocalizationScriptController (Volo.Abp.AspNetCore.Mvc).
+2025-01-03 12:59:29.028 +05:30 [INF] Route matched with {area = "Abp", action = "Get", controller = "AbpApplicationConfigurationScript", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Get() on controller Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationScriptController (Volo.Abp.AspNetCore.Mvc).
+2025-01-03 12:59:29.029 +05:30 [INF] Route matched with {area = "Abp", action = "GetAll", controller = "AbpServiceProxyScript", page = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GetAll(Volo.Abp.AspNetCore.Mvc.ProxyScripting.ServiceProxyGenerationModel) on controller Volo.Abp.AspNetCore.Mvc.ProxyScripting.AbpServiceProxyScriptController (Volo.Abp.AspNetCore.Mvc).
+2025-01-03 12:59:29.029 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5000/images/getting-started/discord.svg - null null
+2025-01-03 12:59:29.029 +05:30 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-01-03 12:59:29.030 +05:30 [INF] Sending file. Request path: 'images/getting-started/x-white.svg'. Physical path: 'C:\Users\rishi\Desktop\ABPTutorial\Solution\wwwroot\images\getting-started\x-white.svg.br'
+2025-01-03 12:59:29.030 +05:30 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-01-03 12:59:29.030 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5000/images/getting-started/x-white.svg - 200 198 image/svg+xml 3.7787ms
+2025-01-03 12:59:29.031 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5000/images/getting-started/stack-overflow.svg - null null
+2025-01-03 12:59:29.032 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5000/images/getting-started/youtube.svg - null null
+2025-01-03 12:59:29.032 +05:30 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-01-03 12:59:29.033 +05:30 [INF] Sending file. Request path: 'images/getting-started/discord.svg'. Physical path: 'C:\Users\rishi\Desktop\ABPTutorial\Solution\wwwroot\images\getting-started\discord.svg.br'
+2025-01-03 12:59:29.033 +05:30 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-01-03 12:59:29.033 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5000/images/getting-started/discord.svg - 200 597 image/svg+xml 4.1021ms
+2025-01-03 12:59:29.033 +05:30 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-01-03 12:59:29.034 +05:30 [INF] Sending file. Request path: 'images/getting-started/stack-overflow.svg'. Physical path: 'C:\Users\rishi\Desktop\ABPTutorial\Solution\wwwroot\images\getting-started\stack-overflow.svg.br'
+2025-01-03 12:59:29.034 +05:30 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-01-03 12:59:29.034 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5000/images/getting-started/stack-overflow.svg - 200 335 image/svg+xml 3.2092ms
+2025-01-03 12:59:29.034 +05:30 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-01-03 12:59:29.035 +05:30 [INF] Sending file. Request path: 'images/getting-started/youtube.svg'. Physical path: 'C:\Users\rishi\Desktop\ABPTutorial\Solution\wwwroot\images\getting-started\youtube.svg.br'
+2025-01-03 12:59:29.035 +05:30 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-01-03 12:59:29.035 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5000/images/getting-started/youtube.svg - 200 389 image/svg+xml 3.2466ms
+2025-01-03 12:59:29.035 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5000/images/getting-started/instagram.svg - null null
+2025-01-03 12:59:29.038 +05:30 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-01-03 12:59:29.039 +05:30 [INF] Sending file. Request path: 'images/getting-started/instagram.svg'. Physical path: 'C:\Users\rishi\Desktop\ABPTutorial\Solution\wwwroot\images\getting-started\instagram.svg.br'
+2025-01-03 12:59:29.039 +05:30 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-01-03 12:59:29.039 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5000/images/getting-started/instagram.svg - 200 1954 image/svg+xml 3.569ms
+2025-01-03 12:59:29.096 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5000/Themes/LeptonX/Global/side-menu/libs/bootstrap-icons/font/fonts/bootstrap-icons.woff2?30af91bf14e37666a085fb8a161ff36d - null null
+2025-01-03 12:59:29.096 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5000/libs/@fortawesome/fontawesome-free/webfonts/fa-solid-900.woff2 - null null
+2025-01-03 12:59:29.096 +05:30 [INF] Sending file. Request path: '/Themes/LeptonX/Global/side-menu/libs/bootstrap-icons/font/fonts/bootstrap-icons.woff2'. Physical path: 'N/A'
+2025-01-03 12:59:29.096 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5000/Themes/LeptonX/Global/side-menu/libs/bootstrap-icons/font/fonts/bootstrap-icons.woff2?30af91bf14e37666a085fb8a161ff36d - 200 92064 font/woff2 0.7344ms
+2025-01-03 12:59:29.099 +05:30 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-01-03 12:59:29.100 +05:30 [INF] Sending file. Request path: 'libs/@fortawesome/fontawesome-free/webfonts/fa-solid-900.woff2'. Physical path: 'C:\Users\rishi\Desktop\ABPTutorial\Solution\wwwroot\libs\@fortawesome\fontawesome-free\webfonts\fa-solid-900.woff2'
+2025-01-03 12:59:29.100 +05:30 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-01-03 12:59:29.101 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5000/libs/@fortawesome/fontawesome-free/webfonts/fa-solid-900.woff2 - 200 158220 font/woff2 5.2582ms
+2025-01-03 12:59:29.170 +05:30 [INF] Executing ContentResult with HTTP Response ContentType of application/javascript
+2025-01-03 12:59:29.196 +05:30 [INF] Executed action Volo.Abp.AspNetCore.Mvc.Localization.AbpApplicationLocalizationScriptController.GetAsync (Volo.Abp.AspNetCore.Mvc) in 167.8905ms
+2025-01-03 12:59:29.196 +05:30 [INF] Executed endpoint 'Volo.Abp.AspNetCore.Mvc.Localization.AbpApplicationLocalizationScriptController.GetAsync (Volo.Abp.AspNetCore.Mvc)'
+2025-01-03 12:59:29.197 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5000/Abp/ApplicationLocalizationScript?cultureName=en - 200 94100 application/javascript 183.4397ms
+2025-01-03 12:59:29.226 +05:30 [INF] Executing ContentResult with HTTP Response ContentType of application/javascript
+2025-01-03 12:59:29.226 +05:30 [INF] Executed action Volo.Abp.AspNetCore.Mvc.ProxyScripting.AbpServiceProxyScriptController.GetAll (Volo.Abp.AspNetCore.Mvc) in 197.1151ms
+2025-01-03 12:59:29.226 +05:30 [INF] Executed endpoint 'Volo.Abp.AspNetCore.Mvc.ProxyScripting.AbpServiceProxyScriptController.GetAll (Volo.Abp.AspNetCore.Mvc)'
+2025-01-03 12:59:29.226 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5000/Abp/ServiceProxyScript - 200 6053 application/javascript 203.9717ms
+2025-01-03 12:59:29.233 +05:30 [WRN] The cookie 'XSRF-TOKEN' has set 'SameSite=None' and must also set 'Secure'.
+2025-01-03 12:59:29.235 +05:30 [INF] Executing ContentResult with HTTP Response ContentType of application/javascript
+2025-01-03 12:59:29.235 +05:30 [INF] Executed action Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationScriptController.Get (Volo.Abp.AspNetCore.Mvc) in 206.9027ms
+2025-01-03 12:59:29.235 +05:30 [INF] Executed endpoint 'Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationScriptController.Get (Volo.Abp.AspNetCore.Mvc)'
+2025-01-03 12:59:29.235 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5000/Abp/ApplicationConfigurationScript - 200 6195 application/javascript 216.1621ms
+2025-01-03 12:59:29.249 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5000/images/logo/leptonx/icon.svg - null null
+2025-01-03 12:59:29.251 +05:30 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-01-03 12:59:29.252 +05:30 [INF] Sending file. Request path: 'images/logo/leptonx/icon.svg'. Physical path: 'C:\Users\rishi\Desktop\ABPTutorial\Solution\wwwroot\images\logo\leptonx\icon.svg.br'
+2025-01-03 12:59:29.252 +05:30 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-01-03 12:59:29.252 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5000/images/logo/leptonx/icon.svg - 200 1284 image/svg+xml 2.7839ms
+2025-01-03 12:59:29.268 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5000/favicon.svg - null null
+2025-01-03 12:59:29.269 +05:30 [INF] Sending file. Request path: '/favicon.svg'. Physical path: 'N/A'
+2025-01-03 12:59:29.269 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5000/favicon.svg - 200 2827 image/svg+xml 0.6886ms
+2025-01-03 12:59:31.841 +05:30 [INF] Start processing HTTP request GET http://localhost:5000/health-status
+2025-01-03 12:59:31.841 +05:30 [INF] Sending HTTP request GET http://localhost:5000/health-status
+2025-01-03 12:59:31.843 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5000/health-status - null null
+2025-01-03 12:59:31.847 +05:30 [INF] Executing endpoint 'Health checks'
+2025-01-03 12:59:31.849 +05:30 [INF] Executed endpoint 'Health checks'
+2025-01-03 12:59:31.849 +05:30 [INF] Received HTTP response headers after 8.0622ms - 200
+2025-01-03 12:59:31.849 +05:30 [INF] End processing HTTP request after 8.162ms - 200
+2025-01-03 12:59:31.849 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5000/health-status - 200 null application/json 5.7803ms
+2025-01-03 12:59:41.853 +05:30 [INF] Start processing HTTP request GET http://localhost:5000/health-status
+2025-01-03 12:59:41.853 +05:30 [INF] Sending HTTP request GET http://localhost:5000/health-status
+2025-01-03 12:59:41.853 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5000/health-status - null null
+2025-01-03 12:59:41.855 +05:30 [INF] Executing endpoint 'Health checks'
+2025-01-03 12:59:41.858 +05:30 [INF] Executed endpoint 'Health checks'
+2025-01-03 12:59:41.859 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5000/health-status - 200 null application/json 5.7756ms
+2025-01-03 12:59:41.859 +05:30 [INF] Received HTTP response headers after 6.1857ms - 200
+2025-01-03 12:59:41.859 +05:30 [INF] End processing HTTP request after 6.2934ms - 200
+2025-01-03 12:59:51.862 +05:30 [INF] Start processing HTTP request GET http://localhost:5000/health-status
+2025-01-03 12:59:51.862 +05:30 [INF] Sending HTTP request GET http://localhost:5000/health-status
+2025-01-03 12:59:51.863 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5000/health-status - null null
+2025-01-03 12:59:51.869 +05:30 [INF] Executing endpoint 'Health checks'
+2025-01-03 12:59:51.875 +05:30 [INF] Executed endpoint 'Health checks'
+2025-01-03 12:59:51.876 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5000/health-status - 200 null application/json 13.3032ms
+2025-01-03 12:59:51.876 +05:30 [INF] Received HTTP response headers after 13.9681ms - 200
+2025-01-03 12:59:51.876 +05:30 [INF] End processing HTTP request after 14.1845ms - 200
+2025-01-03 13:00:01.883 +05:30 [INF] Start processing HTTP request GET http://localhost:5000/health-status
+2025-01-03 13:00:01.883 +05:30 [INF] Sending HTTP request GET http://localhost:5000/health-status
+2025-01-03 13:00:01.884 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5000/health-status - null null
+2025-01-03 13:00:01.912 +05:30 [INF] Executing endpoint 'Health checks'
+2025-01-03 13:00:01.915 +05:30 [INF] Executed endpoint 'Health checks'
+2025-01-03 13:00:01.915 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5000/health-status - 200 null application/json 31.5728ms
+2025-01-03 13:00:01.915 +05:30 [INF] Received HTTP response headers after 32.1637ms - 200
+2025-01-03 13:00:01.915 +05:30 [INF] End processing HTTP request after 32.3735ms - 200
+2025-01-03 13:00:11.927 +05:30 [INF] Start processing HTTP request GET http://localhost:5000/health-status
+2025-01-03 13:00:11.927 +05:30 [INF] Sending HTTP request GET http://localhost:5000/health-status
+2025-01-03 13:00:11.927 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5000/health-status - null null
+2025-01-03 13:00:11.932 +05:30 [INF] Executing endpoint 'Health checks'
+2025-01-03 13:00:11.938 +05:30 [INF] Executed endpoint 'Health checks'
+2025-01-03 13:00:11.938 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5000/health-status - 200 null application/json 10.7493ms
+2025-01-03 13:00:11.938 +05:30 [INF] Received HTTP response headers after 11.3213ms - 200
+2025-01-03 13:00:11.938 +05:30 [INF] End processing HTTP request after 11.5508ms - 200
+2025-01-03 13:00:21.952 +05:30 [INF] Start processing HTTP request GET http://localhost:5000/health-status
+2025-01-03 13:00:21.952 +05:30 [INF] Sending HTTP request GET http://localhost:5000/health-status
+2025-01-03 13:00:21.952 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5000/health-status - null null
+2025-01-03 13:00:21.958 +05:30 [INF] Executing endpoint 'Health checks'
+2025-01-03 13:00:21.964 +05:30 [INF] Executed endpoint 'Health checks'
+2025-01-03 13:00:21.964 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5000/health-status - 200 null application/json 11.9429ms
+2025-01-03 13:00:21.964 +05:30 [INF] Received HTTP response headers after 12.4452ms - 200
+2025-01-03 13:00:21.964 +05:30 [INF] End processing HTTP request after 12.6469ms - 200
+2025-01-03 13:00:31.976 +05:30 [INF] Start processing HTTP request GET http://localhost:5000/health-status
+2025-01-03 13:00:31.976 +05:30 [INF] Sending HTTP request GET http://localhost:5000/health-status
+2025-01-03 13:00:31.977 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5000/health-status - null null
+2025-01-03 13:00:31.982 +05:30 [INF] Executing endpoint 'Health checks'
+2025-01-03 13:00:31.989 +05:30 [INF] Executed endpoint 'Health checks'
+2025-01-03 13:00:31.989 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5000/health-status - 200 null application/json 12.3149ms
+2025-01-03 13:00:31.989 +05:30 [INF] Received HTTP response headers after 12.9561ms - 200
+2025-01-03 13:00:31.989 +05:30 [INF] End processing HTTP request after 13.1714ms - 200
+2025-01-03 13:00:41.995 +05:30 [INF] Start processing HTTP request GET http://localhost:5000/health-status
+2025-01-03 13:00:41.995 +05:30 [INF] Sending HTTP request GET http://localhost:5000/health-status
+2025-01-03 13:00:41.995 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5000/health-status - null null
+2025-01-03 13:00:42.001 +05:30 [INF] Executing endpoint 'Health checks'
+2025-01-03 13:00:42.008 +05:30 [INF] Executed endpoint 'Health checks'
+2025-01-03 13:00:42.009 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5000/health-status - 200 null application/json 13.8875ms
+2025-01-03 13:00:42.009 +05:30 [INF] Received HTTP response headers after 14.4263ms - 200
+2025-01-03 13:00:42.009 +05:30 [INF] End processing HTTP request after 14.6569ms - 200
+2025-01-03 13:00:52.019 +05:30 [INF] Start processing HTTP request GET http://localhost:5000/health-status
+2025-01-03 13:00:52.019 +05:30 [INF] Sending HTTP request GET http://localhost:5000/health-status
+2025-01-03 13:00:52.019 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5000/health-status - null null
+2025-01-03 13:00:52.025 +05:30 [INF] Executing endpoint 'Health checks'
+2025-01-03 13:00:52.027 +05:30 [INF] Executed endpoint 'Health checks'
+2025-01-03 13:00:52.027 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5000/health-status - 200 null application/json 7.736ms
+2025-01-03 13:00:52.027 +05:30 [INF] Received HTTP response headers after 8.2014ms - 200
+2025-01-03 13:00:52.027 +05:30 [INF] End processing HTTP request after 8.3893ms - 200
+2025-01-03 13:01:02.042 +05:30 [INF] Start processing HTTP request GET http://localhost:5000/health-status
+2025-01-03 13:01:02.042 +05:30 [INF] Sending HTTP request GET http://localhost:5000/health-status
+2025-01-03 13:01:02.043 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5000/health-status - null null
+2025-01-03 13:01:02.048 +05:30 [INF] Executing endpoint 'Health checks'
+2025-01-03 13:01:02.055 +05:30 [INF] Executed endpoint 'Health checks'
+2025-01-03 13:01:02.055 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5000/health-status - 200 null application/json 12.5977ms
+2025-01-03 13:01:02.055 +05:30 [INF] Received HTTP response headers after 13.1664ms - 200
+2025-01-03 13:01:02.055 +05:30 [INF] End processing HTTP request after 13.357ms - 200
+2025-01-03 13:01:12.070 +05:30 [INF] Start processing HTTP request GET http://localhost:5000/health-status
+2025-01-03 13:01:12.070 +05:30 [INF] Sending HTTP request GET http://localhost:5000/health-status
+2025-01-03 13:01:12.071 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5000/health-status - null null
+2025-01-03 13:01:12.074 +05:30 [INF] Executing endpoint 'Health checks'
+2025-01-03 13:01:12.076 +05:30 [INF] Executed endpoint 'Health checks'
+2025-01-03 13:01:12.076 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5000/health-status - 200 null application/json 5.0946ms
+2025-01-03 13:01:12.076 +05:30 [INF] Received HTTP response headers after 5.5256ms - 200
+2025-01-03 13:01:12.076 +05:30 [INF] End processing HTTP request after 5.7676ms - 200
+2025-01-03 13:01:22.077 +05:30 [INF] Start processing HTTP request GET http://localhost:5000/health-status
+2025-01-03 13:01:22.077 +05:30 [INF] Sending HTTP request GET http://localhost:5000/health-status
+2025-01-03 13:01:22.077 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5000/health-status - null null
+2025-01-03 13:01:22.080 +05:30 [INF] Executing endpoint 'Health checks'
+2025-01-03 13:01:22.082 +05:30 [INF] Executed endpoint 'Health checks'
+2025-01-03 13:01:22.083 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5000/health-status - 200 null application/json 5.2426ms
+2025-01-03 13:01:22.083 +05:30 [INF] Received HTTP response headers after 5.6377ms - 200
+2025-01-03 13:01:22.083 +05:30 [INF] End processing HTTP request after 5.7899ms - 200
+2025-01-03 13:01:32.090 +05:30 [INF] Start processing HTTP request GET http://localhost:5000/health-status
+2025-01-03 13:01:32.090 +05:30 [INF] Sending HTTP request GET http://localhost:5000/health-status
+2025-01-03 13:01:32.093 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5000/health-status - null null
+2025-01-03 13:01:32.096 +05:30 [INF] Executing endpoint 'Health checks'
+2025-01-03 13:01:32.099 +05:30 [INF] Executed endpoint 'Health checks'
+2025-01-03 13:01:32.100 +05:30 [INF] Received HTTP response headers after 10.0027ms - 200
+2025-01-03 13:01:32.100 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5000/health-status - 200 null application/json 7.0157ms
+2025-01-03 13:01:32.100 +05:30 [INF] End processing HTTP request after 10.1296ms - 200
+2025-01-03 13:01:42.114 +05:30 [INF] Start processing HTTP request GET http://localhost:5000/health-status
+2025-01-03 13:01:42.114 +05:30 [INF] Sending HTTP request GET http://localhost:5000/health-status
+2025-01-03 13:01:42.115 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5000/health-status - null null
+2025-01-03 13:01:42.120 +05:30 [INF] Executing endpoint 'Health checks'
+2025-01-03 13:01:42.122 +05:30 [INF] Executed endpoint 'Health checks'
+2025-01-03 13:01:42.122 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5000/health-status - 200 null application/json 7.7038ms
+2025-01-03 13:01:42.123 +05:30 [INF] Received HTTP response headers after 8.2014ms - 200
+2025-01-03 13:01:42.123 +05:30 [INF] End processing HTTP request after 8.3799ms - 200
+2025-01-03 13:01:52.123 +05:30 [INF] Start processing HTTP request GET http://localhost:5000/health-status
+2025-01-03 13:01:52.123 +05:30 [INF] Sending HTTP request GET http://localhost:5000/health-status
+2025-01-03 13:01:52.123 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5000/health-status - null null
+2025-01-03 13:01:52.127 +05:30 [INF] Executing endpoint 'Health checks'
+2025-01-03 13:01:52.131 +05:30 [INF] Executed endpoint 'Health checks'
+2025-01-03 13:01:52.131 +05:30 [INF] Received HTTP response headers after 7.8012ms - 200
+2025-01-03 13:01:52.131 +05:30 [INF] End processing HTTP request after 7.9918ms - 200
+2025-01-03 13:01:52.131 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5000/health-status - 200 null application/json 7.6485ms
+2025-01-03 13:02:02.148 +05:30 [INF] Start processing HTTP request GET http://localhost:5000/health-status
+2025-01-03 13:02:02.148 +05:30 [INF] Sending HTTP request GET http://localhost:5000/health-status
+2025-01-03 13:02:02.148 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5000/health-status - null null
+2025-01-03 13:02:02.157 +05:30 [INF] Executing endpoint 'Health checks'
+2025-01-03 13:02:02.165 +05:30 [INF] Executed endpoint 'Health checks'
+2025-01-03 13:02:02.166 +05:30 [INF] Received HTTP response headers after 18.3418ms - 200
+2025-01-03 13:02:02.166 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5000/health-status - 200 null application/json 17.8527ms
+2025-01-03 13:02:02.166 +05:30 [INF] End processing HTTP request after 18.5838ms - 200
+2025-01-03 13:02:12.179 +05:30 [INF] Start processing HTTP request GET http://localhost:5000/health-status
+2025-01-03 13:02:12.179 +05:30 [INF] Sending HTTP request GET http://localhost:5000/health-status
+2025-01-03 13:02:12.179 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5000/health-status - null null
+2025-01-03 13:02:12.182 +05:30 [INF] Executing endpoint 'Health checks'
+2025-01-03 13:02:12.186 +05:30 [INF] Executed endpoint 'Health checks'
+2025-01-03 13:02:12.187 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5000/health-status - 200 null application/json 7.4931ms
+2025-01-03 13:02:12.187 +05:30 [INF] Received HTTP response headers after 7.8999ms - 200
+2025-01-03 13:02:12.187 +05:30 [INF] End processing HTTP request after 8.0461ms - 200
+2025-01-03 13:02:22.192 +05:30 [INF] Start processing HTTP request GET http://localhost:5000/health-status
+2025-01-03 13:02:22.192 +05:30 [INF] Sending HTTP request GET http://localhost:5000/health-status
+2025-01-03 13:02:22.192 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5000/health-status - null null
+2025-01-03 13:02:22.194 +05:30 [INF] Executing endpoint 'Health checks'
+2025-01-03 13:02:22.197 +05:30 [INF] Executed endpoint 'Health checks'
+2025-01-03 13:02:22.198 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5000/health-status - 200 null application/json 5.7622ms
+2025-01-03 13:02:22.198 +05:30 [INF] Received HTTP response headers after 6.1763ms - 200
+2025-01-03 13:02:22.198 +05:30 [INF] End processing HTTP request after 6.251ms - 200
+2025-01-03 13:02:32.206 +05:30 [INF] Start processing HTTP request GET http://localhost:5000/health-status
+2025-01-03 13:02:32.206 +05:30 [INF] Sending HTTP request GET http://localhost:5000/health-status
+2025-01-03 13:02:32.207 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5000/health-status - null null
+2025-01-03 13:02:32.208 +05:30 [INF] Executing endpoint 'Health checks'
+2025-01-03 13:02:32.279 +05:30 [INF] Executed endpoint 'Health checks'
+2025-01-03 13:02:32.279 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5000/health-status - 200 null application/json 72.7495ms
+2025-01-03 13:02:32.280 +05:30 [INF] Received HTTP response headers after 73.1545ms - 200
+2025-01-03 13:02:32.280 +05:30 [INF] End processing HTTP request after 73.2433ms - 200
+2025-01-03 13:02:42.286 +05:30 [INF] Start processing HTTP request GET http://localhost:5000/health-status
+2025-01-03 13:02:42.286 +05:30 [INF] Sending HTTP request GET http://localhost:5000/health-status
+2025-01-03 13:02:42.286 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5000/health-status - null null
+2025-01-03 13:02:42.290 +05:30 [INF] Executing endpoint 'Health checks'
+2025-01-03 13:02:42.292 +05:30 [INF] Executed endpoint 'Health checks'
+2025-01-03 13:02:42.292 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5000/health-status - 200 null application/json 6.1473ms
+2025-01-03 13:02:42.292 +05:30 [INF] Received HTTP response headers after 6.6229ms - 200
+2025-01-03 13:02:42.292 +05:30 [INF] End processing HTTP request after 6.8162ms - 200
+2025-01-03 13:02:52.295 +05:30 [INF] Start processing HTTP request GET http://localhost:5000/health-status
+2025-01-03 13:02:52.295 +05:30 [INF] Sending HTTP request GET http://localhost:5000/health-status
+2025-01-03 13:02:52.295 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5000/health-status - null null
+2025-01-03 13:02:52.297 +05:30 [INF] Executing endpoint 'Health checks'
+2025-01-03 13:02:52.300 +05:30 [INF] Executed endpoint 'Health checks'
+2025-01-03 13:02:52.300 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5000/health-status - 200 null application/json 5.2907ms
+2025-01-03 13:02:52.300 +05:30 [INF] Received HTTP response headers after 5.6406ms - 200
+2025-01-03 13:02:52.300 +05:30 [INF] End processing HTTP request after 5.7517ms - 200
+2025-01-03 13:03:02.310 +05:30 [INF] Start processing HTTP request GET http://localhost:5000/health-status
+2025-01-03 13:03:02.310 +05:30 [INF] Sending HTTP request GET http://localhost:5000/health-status
+2025-01-03 13:03:02.310 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5000/health-status - null null
+2025-01-03 13:03:02.316 +05:30 [INF] Executing endpoint 'Health checks'
+2025-01-03 13:03:02.323 +05:30 [INF] Executed endpoint 'Health checks'
+2025-01-03 13:03:02.323 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5000/health-status - 200 null application/json 13.0592ms
+2025-01-03 13:03:02.324 +05:30 [INF] Received HTTP response headers after 13.7855ms - 200
+2025-01-03 13:03:02.324 +05:30 [INF] End processing HTTP request after 14.0044ms - 200
+2025-01-03 13:03:12.333 +05:30 [INF] Start processing HTTP request GET http://localhost:5000/health-status
+2025-01-03 13:03:12.333 +05:30 [INF] Sending HTTP request GET http://localhost:5000/health-status
+2025-01-03 13:03:12.334 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5000/health-status - null null
+2025-01-03 13:03:12.335 +05:30 [INF] Executing endpoint 'Health checks'
+2025-01-03 13:03:12.338 +05:30 [INF] Executed endpoint 'Health checks'
+2025-01-03 13:03:12.338 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5000/health-status - 200 null application/json 4.6191ms
+2025-01-03 13:03:12.338 +05:30 [INF] Received HTTP response headers after 4.9579ms - 200
+2025-01-03 13:03:12.338 +05:30 [INF] End processing HTTP request after 5.0392ms - 200
+2025-01-03 13:03:22.349 +05:30 [INF] Start processing HTTP request GET http://localhost:5000/health-status
+2025-01-03 13:03:22.349 +05:30 [INF] Sending HTTP request GET http://localhost:5000/health-status
+2025-01-03 13:03:22.349 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5000/health-status - null null
+2025-01-03 13:03:22.351 +05:30 [INF] Executing endpoint 'Health checks'
+2025-01-03 13:03:22.354 +05:30 [INF] Executed endpoint 'Health checks'
+2025-01-03 13:03:22.354 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5000/health-status - 200 null application/json 5.0082ms
+2025-01-03 13:03:22.354 +05:30 [INF] Received HTTP response headers after 5.2636ms - 200
+2025-01-03 13:03:22.354 +05:30 [INF] End processing HTTP request after 5.3258ms - 200
+2025-01-03 13:03:32.365 +05:30 [INF] Start processing HTTP request GET http://localhost:5000/health-status
+2025-01-03 13:03:32.365 +05:30 [INF] Sending HTTP request GET http://localhost:5000/health-status
+2025-01-03 13:03:32.367 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5000/health-status - null null
+2025-01-03 13:03:32.371 +05:30 [INF] Executing endpoint 'Health checks'
+2025-01-03 13:03:32.372 +05:30 [INF] Executed endpoint 'Health checks'
+2025-01-03 13:03:32.373 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5000/health-status - 200 null application/json 5.4941ms
+2025-01-03 13:03:32.373 +05:30 [INF] Received HTTP response headers after 7.4082ms - 200
+2025-01-03 13:03:32.373 +05:30 [INF] End processing HTTP request after 7.4637ms - 200
+2025-01-03 13:03:42.381 +05:30 [INF] Start processing HTTP request GET http://localhost:5000/health-status
+2025-01-03 13:03:42.381 +05:30 [INF] Sending HTTP request GET http://localhost:5000/health-status
+2025-01-03 13:03:42.382 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5000/health-status - null null
+2025-01-03 13:03:42.386 +05:30 [INF] Executing endpoint 'Health checks'
+2025-01-03 13:03:42.387 +05:30 [INF] Executed endpoint 'Health checks'
+2025-01-03 13:03:42.388 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5000/health-status - 200 null application/json 5.7909ms
+2025-01-03 13:03:42.388 +05:30 [INF] Received HTTP response headers after 6.2491ms - 200
+2025-01-03 13:03:42.388 +05:30 [INF] End processing HTTP request after 6.4017ms - 200
+2025-01-03 13:03:52.402 +05:30 [INF] Start processing HTTP request GET http://localhost:5000/health-status
+2025-01-03 13:03:52.402 +05:30 [INF] Sending HTTP request GET http://localhost:5000/health-status
+2025-01-03 13:03:52.402 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5000/health-status - null null
+2025-01-03 13:03:52.407 +05:30 [INF] Executing endpoint 'Health checks'
+2025-01-03 13:03:52.413 +05:30 [INF] Executed endpoint 'Health checks'
+2025-01-03 13:03:52.413 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5000/health-status - 200 null application/json 11.0779ms
+2025-01-03 13:03:52.413 +05:30 [INF] Received HTTP response headers after 11.6291ms - 200
+2025-01-03 13:03:52.413 +05:30 [INF] End processing HTTP request after 11.8125ms - 200
+2025-01-03 13:04:02.422 +05:30 [INF] Start processing HTTP request GET http://localhost:5000/health-status
+2025-01-03 13:04:02.422 +05:30 [INF] Sending HTTP request GET http://localhost:5000/health-status
+2025-01-03 13:04:02.423 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5000/health-status - null null
+2025-01-03 13:04:02.427 +05:30 [INF] Executing endpoint 'Health checks'
+2025-01-03 13:04:02.429 +05:30 [INF] Executed endpoint 'Health checks'
+2025-01-03 13:04:02.429 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5000/health-status - 200 null application/json 6.7863ms
+2025-01-03 13:04:02.429 +05:30 [INF] Received HTTP response headers after 7.2209ms - 200
+2025-01-03 13:04:02.429 +05:30 [INF] End processing HTTP request after 7.3846ms - 200
+2025-01-03 13:04:12.436 +05:30 [INF] Start processing HTTP request GET http://localhost:5000/health-status
+2025-01-03 13:04:12.436 +05:30 [INF] Sending HTTP request GET http://localhost:5000/health-status
+2025-01-03 13:04:12.437 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5000/health-status - null null
+2025-01-03 13:04:12.439 +05:30 [INF] Executing endpoint 'Health checks'
+2025-01-03 13:04:12.441 +05:30 [INF] Executed endpoint 'Health checks'
+2025-01-03 13:04:12.441 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5000/health-status - 200 null application/json 4.4485ms
+2025-01-03 13:04:12.441 +05:30 [INF] Received HTTP response headers after 4.7519ms - 200
+2025-01-03 13:04:12.441 +05:30 [INF] End processing HTTP request after 4.8233ms - 200
+2025-01-03 13:04:22.453 +05:30 [INF] Start processing HTTP request GET http://localhost:5000/health-status
+2025-01-03 13:04:22.453 +05:30 [INF] Sending HTTP request GET http://localhost:5000/health-status
+2025-01-03 13:04:22.454 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5000/health-status - null null
+2025-01-03 13:04:22.456 +05:30 [INF] Executing endpoint 'Health checks'
+2025-01-03 13:04:22.457 +05:30 [INF] Executed endpoint 'Health checks'
+2025-01-03 13:04:22.458 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5000/health-status - 200 null application/json 4.0399ms
+2025-01-03 13:04:22.458 +05:30 [INF] Received HTTP response headers after 4.2876ms - 200
+2025-01-03 13:04:22.458 +05:30 [INF] End processing HTTP request after 4.4132ms - 200
+2025-01-03 13:04:32.467 +05:30 [INF] Start processing HTTP request GET http://localhost:5000/health-status
+2025-01-03 13:04:32.467 +05:30 [INF] Sending HTTP request GET http://localhost:5000/health-status
+2025-01-03 13:04:32.467 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5000/health-status - null null
+2025-01-03 13:04:32.470 +05:30 [INF] Executing endpoint 'Health checks'
+2025-01-03 13:04:32.473 +05:30 [INF] Executed endpoint 'Health checks'
+2025-01-03 13:04:32.473 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5000/health-status - 200 null application/json 5.6489ms
+2025-01-03 13:04:32.473 +05:30 [INF] Received HTTP response headers after 6.0198ms - 200
+2025-01-03 13:04:32.473 +05:30 [INF] End processing HTTP request after 6.1612ms - 200
+2025-01-03 13:04:42.476 +05:30 [INF] Start processing HTTP request GET http://localhost:5000/health-status
+2025-01-03 13:04:42.476 +05:30 [INF] Sending HTTP request GET http://localhost:5000/health-status
+2025-01-03 13:04:42.476 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5000/health-status - null null
+2025-01-03 13:04:42.481 +05:30 [INF] Executing endpoint 'Health checks'
+2025-01-03 13:04:42.485 +05:30 [INF] Executed endpoint 'Health checks'
+2025-01-03 13:04:42.485 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5000/health-status - 200 null application/json 8.6968ms
+2025-01-03 13:04:42.485 +05:30 [INF] Received HTTP response headers after 9.1199ms - 200
+2025-01-03 13:04:42.485 +05:30 [INF] End processing HTTP request after 9.2888ms - 200
+2025-01-03 13:04:52.496 +05:30 [INF] Start processing HTTP request GET http://localhost:5000/health-status
+2025-01-03 13:04:52.496 +05:30 [INF] Sending HTTP request GET http://localhost:5000/health-status
+2025-01-03 13:04:52.496 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5000/health-status - null null
+2025-01-03 13:04:52.498 +05:30 [INF] Executing endpoint 'Health checks'
+2025-01-03 13:04:52.501 +05:30 [INF] Executed endpoint 'Health checks'
+2025-01-03 13:04:52.501 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5000/health-status - 200 null application/json 5.1901ms
+2025-01-03 13:04:52.501 +05:30 [INF] Received HTTP response headers after 5.4748ms - 200
+2025-01-03 13:04:52.501 +05:30 [INF] End processing HTTP request after 5.5719ms - 200
+2025-01-03 13:05:02.518 +05:30 [INF] Start processing HTTP request GET http://localhost:5000/health-status
+2025-01-03 13:05:02.518 +05:30 [INF] Sending HTTP request GET http://localhost:5000/health-status
+2025-01-03 13:05:02.518 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5000/health-status - null null
+2025-01-03 13:05:02.524 +05:30 [INF] Executing endpoint 'Health checks'
+2025-01-03 13:05:02.529 +05:30 [INF] Executed endpoint 'Health checks'
+2025-01-03 13:05:02.529 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5000/health-status - 200 null application/json 11.0647ms
+2025-01-03 13:05:02.530 +05:30 [INF] Received HTTP response headers after 11.8361ms - 200
+2025-01-03 13:05:02.530 +05:30 [INF] End processing HTTP request after 12.0378ms - 200
+2025-01-03 13:05:12.531 +05:30 [INF] Start processing HTTP request GET http://localhost:5000/health-status
+2025-01-03 13:05:12.532 +05:30 [INF] Sending HTTP request GET http://localhost:5000/health-status
+2025-01-03 13:05:12.532 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5000/health-status - null null
+2025-01-03 13:05:12.537 +05:30 [INF] Executing endpoint 'Health checks'
+2025-01-03 13:05:12.543 +05:30 [INF] Executed endpoint 'Health checks'
+2025-01-03 13:05:12.543 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5000/health-status - 200 null application/json 11.0333ms
+2025-01-03 13:05:12.543 +05:30 [INF] Received HTTP response headers after 11.5474ms - 200
+2025-01-03 13:05:12.543 +05:30 [INF] End processing HTTP request after 11.7762ms - 200
+2025-01-03 13:05:22.545 +05:30 [INF] Start processing HTTP request GET http://localhost:5000/health-status
+2025-01-03 13:05:22.545 +05:30 [INF] Sending HTTP request GET http://localhost:5000/health-status
+2025-01-03 13:05:22.545 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5000/health-status - null null
+2025-01-03 13:05:22.547 +05:30 [INF] Executing endpoint 'Health checks'
+2025-01-03 13:05:22.549 +05:30 [INF] Executed endpoint 'Health checks'
+2025-01-03 13:05:22.549 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5000/health-status - 200 null application/json 4.0708ms
+2025-01-03 13:05:22.549 +05:30 [INF] Received HTTP response headers after 4.47ms - 200
+2025-01-03 13:05:22.549 +05:30 [INF] End processing HTTP request after 4.5563ms - 200
+2025-01-03 13:05:32.555 +05:30 [INF] Start processing HTTP request GET http://localhost:5000/health-status
+2025-01-03 13:05:32.555 +05:30 [INF] Sending HTTP request GET http://localhost:5000/health-status
+2025-01-03 13:05:32.557 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5000/health-status - null null
+2025-01-03 13:05:32.558 +05:30 [INF] Executing endpoint 'Health checks'
+2025-01-03 13:05:32.560 +05:30 [INF] Executed endpoint 'Health checks'
+2025-01-03 13:05:32.560 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5000/health-status - 200 null application/json 3.5168ms
+2025-01-03 13:05:32.560 +05:30 [INF] Received HTTP response headers after 5.3974ms - 200
+2025-01-03 13:05:32.560 +05:30 [INF] End processing HTTP request after 5.4606ms - 200
